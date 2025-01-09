@@ -1,6 +1,7 @@
 import a1 from '../assets/a1.png';
 import a2 from '../assets/a2.png';
 import a3 from '../assets/a3.png';
+import a4 from '../assets/a4.png';
 
 export default function HeroSec() {
     return(
@@ -20,17 +21,17 @@ export default function HeroSec() {
                     </a>  
                 </div>
                 <div className="images flex flex-row gap-x-5 justify-center">
-                    <div className='w-3/12'>
-                        <img className='mt-12' src={a2} alt="app image 1" />
+                    <div className=''>
+                        <img className='mt-12' src={a4} alt="app image 1" />
                     </div>
 
-                    <div className='w-4/12'>
+                    {/* <div className='w-4/12'>
                         <img src={a1} alt="app image 1" />
                     </div>
 
                     <div className='w-3/12'>
                         <img className='mt-12' src={a3} alt="app image 1" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
